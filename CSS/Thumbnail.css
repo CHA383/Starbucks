@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(#3498db 50%, #ffffff 50%);;
+}
+
+p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: #3498db;
+  font-size: 8vw;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  white-space: nowrap;
+  letter-spacing: 3px;
+}
+
+p::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: attr(data-split);
+  height: 50%;
+  color: #fff;
+  overflow: hidden;
+}

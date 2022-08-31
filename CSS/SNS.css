@@ -1,0 +1,26 @@
+body {
+    margin: 50px 0;
+  }
+  
+  h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+ .Facebook {
+    display: inline;
+    width: 70px;
+ }
+ .Instagram {
+    display: inline;
+    width: 70px;
+ }
+ .Github {
+    display: inline;
+    width: 70px;
+ }
+ #SNS {
+    margin: auto;
+ }
