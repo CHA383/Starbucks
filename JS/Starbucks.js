@@ -71,3 +71,36 @@ new Swiper('.promotion .swiper-container', {
     nextEl: '.promotion .swiper-next'
   }
 });
+
+
+const promotionEl = document.querySelector('.promotion');
+const promotionToggleBtn = document.querySelector('.toggle-promotion')
+let isHidePromotion = false;
+promotionToggleBtn.addEventListener('click', function () {
+  isHidePromotion = !isHidePromotion
+  if (isHidePromotion) {
+    // 숨김 처리!
+    promotionEl.classList.add('hide');
+  }
+  else {
+    // 보임 처리!
+    promotionEl.classList.remove('hide');
+  }
+});
+
+function floatingObject (selector, delay, size) {
+  gsap.to(selector, 1, {
+    y: 20,
+    repeat: -1,
+    yoyo: true,
+    ease: power1.eaesInOut,
+    delay: 1
+  });
+}
+
+floatingObject('.floating1', 1, 15);
+floatingObject('.floating2', 0.5, 15);
+floatingObject('.floating3', 1.5, 20);
+
+
+
