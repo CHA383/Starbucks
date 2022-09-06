@@ -604,6 +604,9 @@ header .badges .badge {
 .youtube .inner {
   height: inherit;
 }
+
+/* 오브젝트 플로팅 CSS */
+
 .youtube .floating1 {
   position: absolute;
   top: 50px;
