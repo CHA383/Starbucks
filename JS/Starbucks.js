@@ -101,5 +101,8 @@ floatingObject('.floating1', 1, 15);
 floatingObject('.floating2', 0.5, 15);
 floatingObject('.floating3', 1.5, 20);
 
+/* 요소가 화면에 보여짐 여부에 따른 요소 관리 */
+const spyEls = document.querySelectorAll('section.scroll-spy');
+// 요소들 반복 처리!
 
 
