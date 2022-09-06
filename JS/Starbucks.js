@@ -72,7 +72,6 @@ new Swiper('.promotion .swiper-container', {
   }
 });
 
-
 const promotionEl = document.querySelector('.promotion');
 const promotionToggleBtn = document.querySelector('.toggle-promotion')
 let isHidePromotion = false;
