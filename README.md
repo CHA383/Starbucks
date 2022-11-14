@@ -1,3 +1,3 @@
 # Starbucks!
 
-## My First Clone Coding Project
+My First Clone Coding Project
